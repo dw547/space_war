@@ -111,7 +111,7 @@ function init(){
         ship = new createjs.Bitmap('img/' + img.ship);
         stage.addChild(ship);
         ship.x = 435; 
-        ship.y = 650; 
+        ship.y = 470; 
     }
 
     function addEnnemies(){
