@@ -28,7 +28,7 @@ function init(){
         new Level(img.enemies[3], 5, img.bosses[3], 150),
         new Level(img.enemies[4], 5, img.bosses[4], 150)
     ];
-    var helpText = "The game consists of five phase, at the end of each\nyou will have to face the boss, you can not let it touch you\nor the game will end.\nUse the arrow key to move,\nthe spacebar to shoot\nand escape to pause.\nHave fun ! :)"; 
+    var helpText = "\nHave fun ! :"; 
     var soundEnable = localStorage.getItem('sound') || 'enable';
     if( localStorage.getItem('highscore') === null) localStorage.setItem('highscore', 0);
     var highscore = JSON.parse(localStorage.getItem('highscore'));
